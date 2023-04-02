@@ -15,6 +15,7 @@
 body {
   font-family: "Roboto";
 }
+
 .header {
   background-color: --color-white-background;
 }
@@ -68,7 +69,6 @@ body {
 }
 .title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -87,9 +87,8 @@ body {
 .features {
   padding: 0px;
 }
-.feature-content {
-  list-style-position: inside;
-}
+/* .feature-content {
+} */
 .feature-subject {
   font-weight: 500;
   font-size: 20px;
@@ -104,8 +103,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
-.products-section {
-}
+/* .products-section {
+} */
 .products-title {
   font-weight: 700;
   font-size: 36px;
@@ -114,8 +113,8 @@ body {
   text-transform: capitalize;
   color: var(--color-dark);
 }
-.product-img {
-}
+/* .product-img {
+} */
 .team-cards {
   background-color: var(--color-light);
 }
@@ -127,12 +126,12 @@ body {
   text-transform: capitalize;
   color: var(--color-dark);
 }
-.cards {
+/* .cards {
 }
 .card {
 }
 .card-img {
-}
+} */
 .card-caption {
   font-weight: 500;
   font-size: 20px;
@@ -159,4 +158,33 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-light);
+}
+.portfolio-btn {
+  background-color: var(--color-light);
+  color: var(--color-primary-brand);
+  border: 1px solid var(--color-accent);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 4px;
+}
+.link-card {
+  background-color: var(--color-white-background);
+  text-decoration: none;
+}
+.card-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+  font-style: normal;
+}
+.link-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
 }
