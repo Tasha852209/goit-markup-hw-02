@@ -67,7 +67,7 @@ body {
 .mail-link:focus,
 .phone-link:hover,
 .phone-link:focus {
-  color: var(--color-primary-brand);
+  color: var(--color-pressed-state);
 }
 .hero-section {
   background-color: var(--color-hero-background);
@@ -184,12 +184,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--color-pressed-state);
   color: var(--color-white-background);
-  letter-spacing: 0.04em;
 }
 .link-card {
   background-color: var(--color-white-background);
