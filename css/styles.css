@@ -30,7 +30,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-dark);
-  /* text-decoration: none; */
   color: var(--color-primary-brand);
 }
 .link {
@@ -46,19 +45,19 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--color-dark);
-  /* text-decoration: none; */
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--color-primary-brand);
+  color: var(--color-pressed-state);
+}
+.address {
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
 .mail-link,
 .phone-link {
   color: var(--color-text);
-  /* text-decoration: none; */
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -180,7 +179,6 @@ body {
 }
 .link-card {
   background-color: var(--color-white-background);
-  /* text-decoration: none; */
 }
 .card-subject {
   font-weight: 500;
