@@ -30,10 +30,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-dark);
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--color-primary-brand);
 }
-
+.link {
+  text-decoration: none;
+}
 .logo-text {
   color: var(--color-dark);
 }
@@ -46,7 +48,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-dark);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -55,7 +57,7 @@ body {
 .mail-link,
 .phone-link {
   color: var(--color-text);
-  text-decoration: none;
+  /* text-decoration: none; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -178,7 +180,7 @@ body {
 }
 .link-card {
   background-color: var(--color-white-background);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 .card-subject {
   font-weight: 500;
