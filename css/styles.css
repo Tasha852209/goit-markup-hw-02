@@ -46,6 +46,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-dark);
+  letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -78,11 +79,17 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--color-white-background);
+  text-align: center;
 }
 .title-btn {
   color: var(--color-white-background);
   background-color: var(--color-primary-brand);
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .title-btn:hover,
 .title-btn:focus {
@@ -116,7 +123,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-dark);
+  line-height: 1.11;
+  text-align: center;
 }
+
 /* .product-img {
 } */
 .team-cards {
@@ -129,12 +139,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-dark);
+  text-align: center;
 }
 /* .cards {
-}
+} */
 .card {
+  background-color: var(--color-white-background);
 }
-.card-img {
+/* .card-img {
 } */
 .card-caption {
   font-weight: 500;
@@ -173,9 +185,11 @@ body {
   line-height: 1.5;
   border-radius: 4px;
 }
-.portfolio-btn:hover {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background-color: var(--color-pressed-state);
   color: var(--color-white-background);
+  letter-spacing: 0.04em;
 }
 .link-card {
   background-color: var(--color-white-background);
