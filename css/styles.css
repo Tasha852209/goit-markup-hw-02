@@ -13,50 +13,119 @@
   --color-modal-background: #fcfcfc;
 }
 body {
-  font-family: roboto;
+  font-family: "Roboto";
 }
 .header {
   background-color: --color-white-background;
 }
 .logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  text-decoration: none;
 }
+
 .logo-text {
+  color: var(--color-primary-brand);
 }
-.nav {
+.list {
+  list-style: none;
 }
 .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+  text-decoration: none;
 }
-.address {
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-primary-brand);
 }
-.mail-link {
-}
+.mail-link,
 .phone-link {
+  color: var(--color-text);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
-.main {
+.mail-link:hover,
+.mail-link:focus,
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--color-primary-brand);
 }
 .hero-section {
+  background-color: var(--color-hero-background);
 }
 .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-white-background);
 }
 .title-btn {
+  color: var(--color-white-background);
+  background-color: var(--color-primary-brand);
+  font-family: inherit;
 }
-.feature-section {
+.title-btn:hover,
+.title-btn:focus {
+  background-color: var(--color-pressed-state);
+}
+.features {
+  padding: 0px;
 }
 .feature-content {
+  list-style-position: inside;
 }
 .feature-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
 }
 .feature-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
 }
 .products-section {
 }
 .products-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-dark);
 }
 .product-img {
 }
 .team-cards {
+  background-color: var(--color-light);
 }
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-dark);
 }
 .cards {
 }
@@ -65,8 +134,29 @@ body {
 .card-img {
 }
 .card-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
 }
 .card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
 }
 .footer {
+  background-color: var(--color-dark);
+}
+.logo-footer {
+  color: var(--color-light);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-light);
 }
