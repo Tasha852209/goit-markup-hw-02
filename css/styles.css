@@ -13,14 +13,16 @@
   --color-modal-background: #fcfcfc;
 }
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-white-background);
 }
 
 .header {
   background-color: --color-white-background;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -29,10 +31,11 @@ body {
   text-transform: uppercase;
   color: var(--color-dark);
   text-decoration: none;
+  color: var(--color-primary-brand);
 }
 
 .logo-text {
-  color: var(--color-primary-brand);
+  color: var(--color-dark);
 }
 .list {
   list-style: none;
@@ -168,6 +171,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   border-radius: 4px;
+}
+.portfolio-btn:hover {
+  background-color: var(--color-pressed-state);
+  color: var(--color-white-background);
 }
 .link-card {
   background-color: var(--color-white-background);
