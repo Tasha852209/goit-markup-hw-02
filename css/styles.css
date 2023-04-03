@@ -56,17 +56,15 @@ body {
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.mail-link,
-.phone-link {
+.address-link,
+.address-link {
   color: var(--color-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
-.mail-link:hover,
-.mail-link:focus,
-.phone-link:hover,
-.phone-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--color-pressed-state);
 }
 .hero-section {
