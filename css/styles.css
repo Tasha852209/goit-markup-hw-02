@@ -1,3 +1,22 @@
+/* reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+/* reset end */
 :root {
   --color-primary-brand: #4d5ae5;
   --color-pressed-state: #404bbf;
@@ -17,7 +36,19 @@ body {
   color: var(--color-text);
   background-color: var(--color-white-background);
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .header {
   background-color: --color-white-background;
 }
@@ -37,9 +68,9 @@ body {
 .logo-text {
   color: var(--color-dark);
 }
-.list {
+/* .list {
   list-style: none;
-}
+} */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
