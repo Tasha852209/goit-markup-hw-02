@@ -70,6 +70,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-primary-brand);
+  margin-right: 76px;
 }
 .link {
   text-decoration: none;
@@ -77,12 +78,18 @@ body {
 .logo-text {
   color: var(--color-dark);
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
 .site-nav {
   display: flex;
+  margin-right: auto;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 40px;
 }
+
 /* .list {
   list-style: none;
 } */
